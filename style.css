@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+
+}
+
+body {
+    background-image: url(baground.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+
+a {
+    font-size: .8rem;
+
+}
+
+a:hover {
+    color: #08558B;
+}
+
+.container {
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 2vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 8px;
+}
+
+label {
+    
+    padding: 0px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#forgot-password {
+    display: block;
+    text-align: right;
+}
+
+input[type=submit] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #FFF;
+    background-color: #08558B;
+    cursor: pointer;
+}
+
+input:focus {
+    border-bottom: 2px solid #08558B;
+}
+
+input {
+    border-bottom: 2px solid black;
+    margin-bottom: 25px;
+}
+
+.social-media, .social-media p  {
+   margin-bottom: 20px;
+}
+
+.social-media i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #FFF;
+    line-height: 40px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.fa-facebook-f {
+    background-color: #3B5998;
+
+}
+
+.fa-instagram {
+    background-color: #3f729b;
+}
+
+.fa-linkedin-in {
+    background-color: #0e76a8;
+}
+
+#register {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    text-decoration: underline;
+    
+}
+
+.register-container p {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
